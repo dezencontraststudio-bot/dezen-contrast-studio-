@@ -1,0 +1,4 @@
+$env:PATH = "C:\Program Files\Git\bin;" + $env:PATH
+cd "E:\New folder\dezen-contrast-studio"
+git remote set-url origin https://dezen-contrast-studio:ghp_MlRK••••••••••••••••••••••••••••••••@github.com/dezen-contrast-studio/dezen-contrast-studio.git
+git push -u origin master
