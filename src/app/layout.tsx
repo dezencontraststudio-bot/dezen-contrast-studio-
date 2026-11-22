@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, DM_Sans, JetBrains_Mono } from "next/font/google";
+import { StructuredData } from "@/components/ui/StructuredData";
 import "./globals.css";
 
 const playfairDisplay = Playfair_Display({
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
     template: "%s | Dezen Contrast Studio",
   },
   description:
-    "Dezen Contrast Studio crafts architectural interiors defined by material tension, spatial balance, and intentional contrast. Contact: Dezencontraststudio@gmail.com | +91 96660 55462. Serving clients globally.",
+    "Dezen Contrast Studio crafts architectural interiors defined by material tension, spatial balance, and intentional contrast. Plot No. 63, 402, Road No. 5, Ayyappa Society, Madhapur, Hyderabad, Telangana 500081. Contact: Dezencontraststudio@gmail.com | +91 96660 55462 | Instagram: @dezen.contraststudio",
   keywords: [
     "architectural interior design",
     "interior architecture",
@@ -37,6 +38,8 @@ export const metadata: Metadata = {
     "spatial design",
     "material contrast",
     "Dezen Contrast Studio",
+    "Hyderabad interior design",
+    "Madhapur architects",
   ],
   authors: [{ name: "Dezen Contrast Studio" }],
   creator: "Dezen Contrast Studio",
@@ -49,7 +52,7 @@ export const metadata: Metadata = {
     siteName: "Dezen Contrast Studio",
     title: "Dezen Contrast Studio — Architectural Interior Design",
     description:
-      "Crafting architectural interiors defined by material tension, spatial balance, and intentional contrast. Contact: Dezencontraststudio@gmail.com | +91 96660 55462",
+      "Crafting architectural interiors defined by material tension, spatial balance, and intentional contrast. Based in Hyderabad, serving clients globally.",
     images: [
       {
         url: "/og-image.jpg",
@@ -58,16 +61,22 @@ export const metadata: Metadata = {
         alt: "Dezen Contrast Studio — Portfolio",
       },
     ],
+    emails: ["Dezencontraststudio@gmail.com"],
+    phoneNumbers: ["+91 96660 55462"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dezen Contrast Studio",
     description:
-      "Architectural interiors defined by material tension and spatial balance. Contact: Dezencontraststudio@gmail.com | +91 96660 55462",
+      "Architectural interiors defined by material tension and spatial balance. Hyderabad-based studio serving clients globally.",
     images: ["/og-image.jpg"],
+    creator: "@dezen.contraststudio",
   },
   verification: {
     google: "google-site-verification-code",
+    other: {
+      facebook: "META_VERIFICATION_CODE_HERE",
+    },
   },
 };
 
@@ -100,6 +109,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <StructuredData />
         {children}
       </body>
     </html>

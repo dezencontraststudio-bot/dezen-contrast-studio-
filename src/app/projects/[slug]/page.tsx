@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { projects, Project } from "@/data/projects";
+import { Project } from "@/data/projects";
+import { getProject, getFeaturedProjects } from "@/lib/projects";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Container } from "@/components/ui/Container";
@@ -14,7 +15,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const resolvedParams = await params;
-  const project = projects.find((p) => p.slug === resolvedParams.slug);
+  const project = getProject(resolvedParams.slug);
 
   if (!project) {
     return { title: "Project Not Found" };
@@ -38,7 +39,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
+import { getAllProjects } from "@/lib/projects";
+
 export async function generateStaticParams() {
+  const projects = getAllProjects();
   return projects.map((project) => ({
     slug: project.slug,
   }));
@@ -46,13 +50,14 @@ export async function generateStaticParams() {
 
 export default async function ProjectPage({ params }: PageProps) {
   const resolvedParams = await params;
-  const project = projects.find((p) => p.slug === resolvedParams.slug);
+  const project = getProject(resolvedParams.slug);
 
   if (!project) {
     notFound();
   }
 
-  const relatedProjects = projects
+  const allProjects = getAllProjects();
+  const relatedProjects = allProjects
     .filter((p) => p.category === project.category && p.slug !== project.slug)
     .slice(0, 2);
 

@@ -3,7 +3,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ProjectsShowcase } from "@/components/sections/ProjectsShowcase";
 import { Container } from "@/components/ui/Container";
-import { projects } from "@/data/projects";
+import { getAllProjects, getAllCategories } from "@/lib/projects";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -11,6 +11,9 @@ export const metadata: Metadata = {
 };
 
 export default function ProjectsPage() {
+  const projects = getAllProjects();
+  const categories = getAllCategories();
+
   return (
     <>
       <Header />
@@ -34,7 +37,7 @@ export default function ProjectsPage() {
           </Container>
         </section>
 
-        <ProjectsShowcase />
+        <ProjectsShowcase projects={projects} categories={categories} />
       </main>
       <Footer />
     </>

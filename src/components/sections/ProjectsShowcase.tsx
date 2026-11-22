@@ -4,10 +4,22 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { projects, allCategories, Project } from "@/data/projects";
+import { Project } from "@/data/projects";
 import { Container } from "@/components/ui/Container";
 
-export function ProjectsShowcase({ featured = false, className = "" }) {
+interface ProjectsShowcaseProps {
+  featured?: boolean;
+  className?: string;
+  projects?: Project[];
+  categories?: string[];
+}
+
+export function ProjectsShowcase({
+  featured = false,
+  className = "",
+  projects = [],
+  categories = [],
+}: ProjectsShowcaseProps) {
   const [activeCategory, setActiveCategory] = useState("All");
   const [visibleCount, setVisibleCount] = useState(featured ? 3 : 6);
 
@@ -54,7 +66,7 @@ export function ProjectsShowcase({ featured = false, className = "" }) {
             role="group"
             aria-label="Project categories"
           >
-            {allCategories.map((category) => (
+            {categories.map((category) => (
               <button
                 key={category}
                 onClick={() => {

@@ -168,7 +168,40 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="font-medium text-background">Studio</p>
-                  <p className="text-background/70">[City], [State] — By Appointment Only</p>
+                  <address className="not-italic text-background/70 leading-relaxed">
+                    Plot No. 63, 402, Road No. 5,<br />
+                    Ayyappa Society, Madhapur,<br />
+                    Hyderabad, Telangana, India 500081
+                  </address>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="font-medium text-background">WhatsApp</p>
+                  <a href="https://wa.me/919666055462" target="_blank" rel="noopener noreferrer" className="text-background/70 hover:text-accent transition-colors">
+                    +91 96660 55462
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="font-medium text-background">Instagram</p>
+                  <a href="https://instagram.com/dezen.contraststudio" target="_blank" rel="noopener noreferrer" className="text-background/70 hover:text-accent transition-colors">
+                    @dezen.contraststudio
+                  </a>
                 </div>
               </div>
 

@@ -20,12 +20,13 @@ const footerNavigation = {
     { name: "Press", href: "/about#press" },
   ],
   Connect: [
-    { name: "Instagram", href: "https://instagram.com", external: true },
-    { name: "LinkedIn", href: "https://linkedin.com", external: true },
-    { name: "Pinterest", href: "https://pinterest.com", external: true },
+    { name: "Instagram", href: "https://instagram.com/dezen.contraststudio", external: true },
+    { name: "WhatsApp", href: "https://wa.me/919666055462", external: true },
     { name: "Email", href: "mailto:Dezencontraststudio@gmail.com", external: true },
   ],
 };
+
+const studioAddress = "Plot No. 63, 402, Road No. 5, Ayyappa Society, Madhapur, Hyderabad, Telangana, India 500081";
 
 export function Footer() {
   return (
@@ -43,6 +44,9 @@ export function Footer() {
             <p className="text-background/60 text-sm leading-relaxed mb-8 max-w-xs">
               Architectural interiors defined by material tension, spatial balance, and intentional contrast.
             </p>
+            <address className="not-italic text-background/50 text-sm leading-relaxed mb-8 max-w-xs">
+              {studioAddress}
+            </address>
             <div className="flex gap-6">
               {footerNavigation.Connect.map((item) => (
                 <a

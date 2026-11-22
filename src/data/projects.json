@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "slug": "river-loft",
+    "title": "River Loft",
+    "category": "Residential",
+    "location": "Brooklyn, NY",
+    "year": "2024",
+    "area": "3,200 sq ft",
+    "description": "Transformation of a historic warehouse into a light-filled residential loft, celebrating industrial heritage through material contrast.",
+    "longDescription": "The River Loft project represents a careful negotiation between preservation and transformation. The 1920s warehouse structure — exposed brick, heavy timber columns, and expansive arched windows — became the organizing framework for a contemporary residence. Rather than concealing the building's industrial character, we amplified it through strategic insertions: a blackened steel staircase that floats between floors, walnut millwork that warmly contrasts the cool masonry, and a restrained material palette of concrete, glass, and oxidized metal. The result is a dialogue between eras, where each intervention respects the original while asserting its own time.",
+    "images": [
+      "/projects/river-loft/hero.svg",
+      "/projects/river-loft/living.svg",
+      "/projects/river-loft/kitchen.svg",
+      "/projects/river-loft/bedroom.svg",
+      "/projects/river-loft/detail.svg"
+    ],
+    "materials": [
+      "Exposed Brick",
+      "Heavy Timber",
+      "Blackened Steel",
+      "American Walnut",
+      "Polished Concrete",
+      "Oxidized Copper"
+    ],
+    "services": [
+      "Full Interior Architecture",
+      "Custom Millwork Design",
+      "Lighting Design",
+      "Furniture Specification"
+    ],
+    "featured": true
+  },
+  {
+    "id": "2",
+    "slug": "meridian-house",
+    "title": "Meridian House",
+    "category": "Residential",
+    "location": "Los Angeles, CA",
+    "year": "2023",
+    "area": "4,800 sq ft",
+    "description": "A hillside residence that frames the landscape through precise architectural gestures, blurring the boundary between interior and exterior.",
+    "longDescription": "Perched on a steep hillside with panoramic city views, Meridian House redefines indoor-outdoor living through a series of framed apertures. The architecture operates as a lens — each window, door, and opening carefully composed to capture specific vistas while managing solar exposure. Deep overhangs, operable glass walls, and a material palette of board-formed concrete, ipe wood, and honed travertine create a seamless transition between conditioned and exterior spaces. The plan unfolds as a sequence of pavilions connected by covered walkways, allowing the landscape to penetrate the domestic realm.",
+    "images": [
+      "/projects/meridian-house/hero.svg",
+      "/projects/meridian-house/exterior.svg",
+      "/projects/meridian-house/living.svg",
+      "/projects/meridian-house/pool.svg",
+      "/projects/meridian-house/detail.svg"
+    ],
+    "materials": [
+      "Board-Formed Concrete",
+      "Ipe Wood",
+      "Honed Travertine",
+      "Blackened Steel",
+      "Floor-to-Ceiling Glazing"
+    ],
+    "services": [
+      "Architectural Design",
+      "Interior Architecture",
+      "Landscape Integration",
+      "Custom Furniture"
+    ],
+    "featured": true
+  },
+  {
+    "id": "3",
+    "slug": "aurum-hotel",
+    "title": "Aurum Boutique Hotel",
+    "category": "Hospitality",
+    "location": "Miami, FL",
+    "year": "2024",
+    "area": "18,000 sq ft",
+    "description": "An intimate boutique hotel where brass, marble, and deep tones create a sense of collected luxury across 24 suites and public spaces.",
+    "longDescription": "Aurum Boutique Hotel explores the concept of 'collected luxury' — spaces that feel curated over time rather than designed in a single gesture. The 24 suites and public areas unfold through a choreography of materials: brushed brass that catches and reflects light, verde alpi marble with its dramatic veining, deep walnut paneling, and custom textiles in jewel tones. Each suite is unique, yet unified by a consistent language of contrast. The lobby operates as a living room, with residential-scale seating, a curated library, and a brass-clad bar that glows at night. Public spaces encourage lingering through layered lighting, acoustic consideration, and tactile materials.",
+    "images": [
+      "/projects/aurum-hotel/hero.svg",
+      "/projects/aurum-hotel/lobby.svg",
+      "/projects/aurum-hotel/suite.svg",
+      "/projects/aurum-hotel/restaurant.svg",
+      "/projects/aurum-hotel/detail.svg"
+    ],
+    "materials": [
+      "Brushed Brass",
+      "Verde Alpi Marble",
+      "American Walnut",
+      "Custom Textiles",
+      "Hand-Blown Glass",
+      "Leather"
+    ],
+    "services": [
+      "Full Interior Design",
+      "FF&E Specification",
+      "Custom Lighting Design",
+      "Art Curation",
+      "Brand Identity Integration"
+    ],
+    "featured": true
+  },
+  {
+    "id": "4",
+    "slug": "apex-office",
+    "title": "Apex Creative Office",
+    "category": "Commercial",
+    "location": "San Francisco, CA",
+    "year": "2023",
+    "area": "12,500 sq ft",
+    "description": "A creative workplace that balances collaborative energy with focused work through spatial zoning and material warmth.",
+    "longDescription": "Apex Creative Office reimagines the creative workplace as a series of distinct neighborhoods rather than an open plan. The 12,500 sq ft space is organized around a central 'spine' — a circulation artery that doubles as a gallery for rotating art installations. Radiating from this spine are zones calibrated for different work modes: deep-focus pods wrapped in sound-absorbing felt, collaborative studios with writable walls, a library for quiet research, and a social kitchen that anchors the culture. Material warmth — white oak, wool felt, terracotta — counters the typical tech-office sterility, while exposed mechanical systems and polished concrete maintain an honest, industrial character.",
+    "images": [
+      "/projects/apex-office/hero.svg",
+      "/projects/apex-office/open.svg",
+      "/projects/apex-office/focus.svg",
+      "/projects/apex-office/kitchen.svg",
+      "/projects/apex-office/detail.svg"
+    ],
+    "materials": [
+      "White Oak",
+      "Wool Felt",
+      "Terracotta Tile",
+      "Polished Concrete",
+      "Exposed Mechanical",
+      "Acoustic Plaster"
+    ],
+    "services": [
+      "Workplace Strategy",
+      "Interior Architecture",
+      "Custom Millwork",
+      "Acoustic Design",
+      "Brand Environmental Graphics"
+    ],
+    "featured": false
+  },
+  {
+    "id": "5",
+    "slug": "terrace-residence",
+    "title": "Terrace Residence",
+    "category": "Residential",
+    "location": "Chicago, IL",
+    "year": "2022",
+    "area": "5,200 sq ft",
+    "description": "A historic mansion renovation that honors original detailing while introducing contemporary interventions.",
+    "longDescription": "The Terrace Residence is a 1910 Prairie School mansion restored and reimagined for contemporary living. Our approach was surgical: preserve and restore all original millwork, stained glass, and plaster detailing while introducing modern systems and spatial flows. The kitchen — originally fragmented into service rooms — was opened to the garden through a new steel-and-glass addition that contrasts the historic brick. Primary suites gained spa-like baths clad in honed onyx and brass. Throughout, new interventions are expressed in a language of blackened steel and clear glass, making the dialogue between 1910 and 2022 legible and intentional.",
+    "images": [
+      "/projects/terrace-residence/hero.svg",
+      "/projects/terrace-residence/exterior.svg",
+      "/projects/terrace-residence/kitchen.svg",
+      "/projects/terrace-residence/bath.svg",
+      "/projects/terrace-residence/detail.svg"
+    ],
+    "materials": [
+      "Restored Original Millwork",
+      "Stained Glass",
+      "Honed Onyx",
+      "Unlacquered Brass",
+      "Blackened Steel",
+      "White Oak"
+    ],
+    "services": [
+      "Historic Restoration",
+      "Interior Architecture",
+      "Custom Millwork",
+      "Lighting Design",
+      "Kitchen & Bath Design"
+    ],
+    "featured": true
+  },
+  {
+    "id": "6",
+    "slug": "lumen-gallery",
+    "title": "Lumen Art Gallery",
+    "category": "Cultural",
+    "location": "Seattle, WA",
+    "year": "2024",
+    "area": "8,000 sq ft",
+    "description": "A flexible gallery space where controlled light and neutral surfaces create the ideal canvas for rotating contemporary exhibitions.",
+    "longDescription": "Lumen Art Gallery was designed as a 'non-space' — a container that recedes to elevate the art within. The 8,000 sq ft column-free volume features a sawtooth north-light roof monitor that floods the space with consistent, glare-free daylight. Walls are finished in a proprietary ultra-matte plaster that eliminates reflection. A motorized scrim system allows precise control of natural light for light-sensitive works. The floor is polished concrete with integrated power and data grids for flexible installation. Even the HVAC is calibrated for minimal air velocity across wall surfaces. A lower level houses art storage, preparation, and a private viewing room for collectors.",
+    "images": [
+      "/projects/lumen-gallery/hero.svg",
+      "/projects/lumen-gallery/main.svg",
+      "/projects/lumen-gallery/light.svg",
+      "/projects/lumen-gallery/viewing.svg",
+      "/projects/lumen-gallery/detail.svg"
+    ],
+    "materials": [
+      "Ultra-Matte Plaster",
+      "Polished Concrete",
+      "North-Light Glazing",
+      "Motorized Scrim System",
+      "Blackened Steel"
+    ],
+    "services": [
+      "Architectural Design",
+      "Lighting Design",
+      "Exhibition Infrastructure",
+      "Climate Control Systems",
+      "Custom Display Systems"
+    ],
+    "featured": false
+  }
+]
