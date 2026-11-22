@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#e5e5e5"/>
+  <rect x="100" y="150" width="1000" height="500" fill="#d4d4d4" rx="8"/>
+  <text x="600" y="400" font-family="system-ui" font-size="24" fill="#737373" text-anchor="middle">bedroom</text>
+  <text x="600" y="700" font-family="system-ui" font-size="18" fill="#a3a3a3" text-anchor="middle">aurum hotel</text>
+</svg>

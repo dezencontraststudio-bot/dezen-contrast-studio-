@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#e5e5e5"/>
+  <circle cx="200" cy="180" r="80" fill="#d4d4d4"/>
+  <ellipse cx="200" cy="420" rx="120" ry="140" fill="#d4d4d4"/>
+  <text x="200" y="480" font-family="system-ui" font-size="16" fill="#737373" text-anchor="middle">james</text>
+</svg>

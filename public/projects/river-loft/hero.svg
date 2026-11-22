@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#e5e5e5"/>
+  <rect x="100" y="150" width="1000" height="500" fill="#d4d4d4" rx="8"/>
+  <rect x="150" y="200" width="400" height="300" fill="#c8a97e" rx="4" opacity="0.3"/>
+  <rect x="650" y="200" width="400" height="140" fill="#9d825c" rx="4" opacity="0.4"/>
+  <rect x="650" y="360" width="400" height="140" fill="#c8a97e" rx="4" opacity="0.3"/>
+  <text x="600" y="700" font-family="system-ui" font-size="24" fill="#737373" text-anchor="middle">River Loft — Brooklyn, NY</text>
+</svg>
